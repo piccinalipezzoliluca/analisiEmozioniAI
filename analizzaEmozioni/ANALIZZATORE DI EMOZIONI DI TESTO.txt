@@ -1,0 +1,15 @@
+ANALIZZATORE DI EMOZIONI DI TESTO
+In questo progetto, useremo HuggingFace. È una piattaforma che mette a disposizione migliaia di modelli AI già pronti all'utilizzo. Noi ne useremo uno che sa già riconoscere le emozioni in un testo.
+Pipeline è una funzione di HuggingFace che ti permette di usare un modello in una sola riga, senza entrare nei dettagli tecnici. Tu gli dai un testo, lui ti restituisce il risultato.
+
+Per questo progetto, utilizzeremo VSCode e installiamo le librerie necessarie:
+
+pip install transformers torch streamlit
+
+Installiamo le librerie necessarie nel terminale: pip install transformers torch streamlit
+
+Per utilizzare questo codice, è necessario avere Python installato sul proprio computer e le librerie Transformers, Torch e Streamlit.
+pip install deep-translator: questa libreria è necessaria per tradurre il testo in inglese, se l'utente inserisce un testo in una lingua diversa dall'inglese.
+Per eseguire l'applicazione, utilizziamo il comando: python -m streamlit run app.py
+pip install langdetect: questa libreria è necessaria per rilevare la lingua del testo inserito dall'utente, in modo da poterlo tradurre correttamente se non è in inglese.
+pip install pdfplumber: aggiungere documenti pdf
